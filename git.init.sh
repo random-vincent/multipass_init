@@ -12,8 +12,8 @@ git config --global alias.latest 'for-each-ref --sort=-committerdate --format=\"
 git config --global alias.master 'checkout master'
 git config --global alias.dev 'checkout dev'
 git config --global alias.test 'checkout test'
-git config --global user.name anblandy
-git config --global user.email butter_npm@outlook.com
+git config --global user.name ''
+git config --global user.email ''
 git  config  --global core.excludesfile   ~/.gitingore_global
 echo '.DS_Store' > ~/.gitingore_global
 echo 'GIT CONFIG RESULT:\n'
