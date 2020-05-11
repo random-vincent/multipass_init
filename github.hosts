@@ -1,0 +1,43 @@
+# Your system has configured 'manage_etc_hosts' as True.
+# As a result, if you wish for changes to this file to persist
+# then you will need to either
+# a.) make changes to the master file in /etc/cloud/templates/hosts.debian.tmpl
+# b.) change or remove the value of 'manage_etc_hosts' in
+#     /etc/cloud/cloud.cfg or cloud-config from user-data
+#
+127.0.1.1 qtt qtt
+127.0.0.1 localhost
+
+ # Github
+ # Github
+151.101.44.249 github.global.ssl.fastly.net
+192.30.253.113 github.com
+103.245.222.133 assets-cdn.github.com
+23.235.47.133 assets-cdn.github.com
+203.208.39.104 assets-cdn.github.com
+204.232.175.78 documentcloud.github.com
+204.232.175.94 gist.github.com
+107.21.116.220 help.github.com
+207.97.227.252 nodeload.github.com
+#199.27.76.130 raw.github.com
+107.22.3.110 status.github.com
+204.232.175.78 training.github.com
+207.97.227.243 www.github.com
+185.31.16.184 github.global.ssl.fastly.net
+151.101.0.0/22 avatars0.githubusercontent.com
+151.101.0.0/22 avatars1.githubusercontent.com
+151.101.0.0/22 avatars2.githubusercontent.com
+151.101.0.0/22 avatars3.githubusercontent.com
+199.232.28.133 cloud.githubusercontent.com
+
+# 199.27.76.130  raw.github.com
+
+151.101.228.133 raw.github.com
+
+# The following lines are desirable for IPv6 capable hosts
+::1 ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
